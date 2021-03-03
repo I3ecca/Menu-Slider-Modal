@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Seat Booking</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Landing Page</title>
 </head>
+
 <body>
-    <script src="scripts.js"></script>
+	<nav>
+		<div class="logo"> <img src="https://randomuser.me/api/portraits/women/76.jpg" alt="user"> </div>
+		<ul>
+			<li href="#">Home</li>
+			<li href="#">Portfolio</li>
+			<li href="#">Blog</li>
+			<li href="#">Contact Me</li>
+		</ul>
+	</nav>
+	<header>
+		<button id="toggle" class="toggle"> <i class="fa fa-bars fa-2x"></i> </button>
+		<h1>My Landing Page</h1>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, ad.</p>
+		<button class="cta-btn" id="open">Sign Up</button>
+	</header>
+	<div class="container">
+		<h2>What is this landing page about?</h2>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi obcaecati provident odio, consequuntur ducimus autem, ut enim earum, error mollitia animi quo inventore ipsa aliquam ad doloribus illo in incidunt.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt dignissimos iure ipsum modi? Ratione et dicta magnam cum sequi?</p>
+		<h2>Tell me more</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias cum quis, itaque corrupti reprehenderit laudantium quibusdam ut eum autem deserunt hic qui, ducimus velit aliquam nemo provident nihil eligendi magni vitae! Natus recusandae deleniti itaque ea, magnam nisi mollitia.</p>
+		<h2>Benefits</h2>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quia laudantium odit illum doloremque sunt molestiae sint pariatur facere, numquam consequatur tempora quas similique ullam hic delectus soluta aspernatur quisquam, consequuntur dolor. Numquam possimus expedita accusamus provident delectus ipsum officia, hic facilis? Quod, totam velit.</p>
+		<ul>
+			<li>Lifetime Access</li>
+			<li>30 Day Money Back</li>
+			<li>Tailores Customer Support</li>
+		</ul>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut error exercitationem alias itaque omnis vero ex vel, magni autem asperiores in aspernatur facere nemo accusantium doloremque delectus excepturi aliquam! Eius tempora fugit neque praesentium pariatur voluptas deleniti nesciunt et ipsum nemo quam voluptatem, provident a repellendus quibusdam consectetur eos harum? Asperiores inventore sed, illo distinctio voluptas placeat sapiente ducimus iusto sint reiciendis impedit quam voluptate repudiandae, perspiciatis qui laboriosam!</p>
+	</div>
+	<!-- Modal -->
+	<div class="modal-container" id="modal">
+		<div class="modal">
+			<button class="close-btn" id="close"> <i class="fa fa-times"></i> </button>
+			<div class="modal-header">
+				<h3>Sign Up</h3> </div>
+			<div class="modal-content">
+				<p>Register with us to get offers, support and more</p>
+				<form class="modal-form">
+					<div>
+						<label for="name">Name</label>
+						<input type="text" id="name" placeholder="Enter Name"> </div>
+					<div>
+						<label for="email">Email</label>
+						<input type="email" id="email" placeholder="Enter Email"> </div>
+					<div>
+						<label for="password">Password</label>
+						<input type="password" id="password" placeholder="Enter Password"> </div>
+					<div>
+						<label for="password2">Confirm password</label>
+						<input type="password" id="password2" placeholder="Confirm password"> </div>
+				</form>
+			</div>
+			<input type="submit" value="submit" class="submit-btn"> </div>
+	</div>
+	<script src="scripts.js"></script>
 </body>
+
 </html>
